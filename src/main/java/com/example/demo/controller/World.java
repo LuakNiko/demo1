@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/start")
-public class Hello {
+@RequestMapping("/hello")
+public class World {
 
-    @RequestMapping("/springboot")
+    @RequestMapping("/world")
     public String startSpringBoot() {
-        return "Welcome to the world of Spring Boot!";
+        return "hello world!";
     }
 }
 
